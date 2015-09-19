@@ -4,7 +4,7 @@ var board = [
   [0,0,0,0],
   [0,0,0,0]
 ]; // this is 5 arrays: the board one, and 4 arrays within it.
-board[][];
+
 var boardDimension = 4; // 4 x 4
 var score = 0;
 
