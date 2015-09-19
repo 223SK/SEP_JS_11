@@ -47,3 +47,8 @@ menu_item.innerHTML="Pizza"
   - Callbacks - passing functions as parameters
   - Anonymous functions
 - Variable Scope
+
+## Goals for 11th Grade Front End
+- Interactive pages 
+- Integrating API's
+- Understanding how to find documentation

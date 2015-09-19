@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2048</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+
+</head>
+<body onkeydown="keyPress(event);">
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+    </div>
+
+
+    <div class="game-container">
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell" id="row0col0"></div>
+          <div class="grid-cell" id="row0col1"></div>
+          <div class="grid-cell" id="row0col2"></div>
+          <div class="grid-cell" id="row0col3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell" id="row1col0"></div>
+          <div class="grid-cell" id="row1col1"></div>
+          <div class="grid-cell" id="row1col2"></div>
+          <div class="grid-cell" id="row1col3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell" id="row2col0"></div>
+          <div class="grid-cell" id="row2col1"></div>
+          <div class="grid-cell" id="row2col2"></div>
+          <div class="grid-cell" id="row2col3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell" id="row3col0"></div>
+          <div class="grid-cell" id="row3col1"></div>
+          <div class="grid-cell" id="row3col2"></div>
+          <div class="grid-cell" id="row3col3"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+  </div>
+
+<script>
+		runGame();
+    
+</script>
+
+</body>
+</html>
