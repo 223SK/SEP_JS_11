@@ -14,6 +14,23 @@ Need to find better metaphors for explaining _object_.
 Class: car
 Object
 
+**Typical HTML Page**
+
+```html
+<html>
+  <head>
+
+  </head>
+  <body>
+    <!-- JavaScript requires classes to select specific elements.  -->
+    <p class="name">This is a child of the body.</p>
+    <div id="another name">
+      <p class="name">Another paragraph</p>
+    </div>
+  </body>
+</html>
+```
+
 **Here's a thing we did, using [Aankit's page](http://www.aankit.com/)**
 ```javascript
 document.getElementById("menu-item-198");
